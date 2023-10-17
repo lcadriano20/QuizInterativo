@@ -1,0 +1,37 @@
+@media (max-width: 767px) {
+    #choices-board {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0%;
+    }
+    #attempts-scoreboard {
+        position: absolute;
+        top: 65%;
+    }
+}
+@media (max-width: 1008px) {
+    #choices-board {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0%;
+    }
+    #attempts-scoreboard {
+        position: absolute;
+        top: 65%;
+    }
+}
+@media(max-width:555px) {
+    #choices {
+        display: flex;
+        flex-direction: column;
+    }
+    #attempts-scoreboard {
+        position: absolute;
+        top: 70%;
+    }
+}
+
+
+   

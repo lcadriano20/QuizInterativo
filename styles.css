@@ -1,0 +1,85 @@
+body {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+.quiz-container {
+    text-align: center;
+    box-shadow: 0px 0px 5px 2px rgb(0,0,0,0.1);
+    padding: 20px;
+    background-color: #FFF;
+    width: 500px;
+}
+.choice {
+    margin: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+    cursor: pointer;
+}
+.choice:hover {
+    background-color: #f0f0f0;
+}
+#next {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #FFF;
+    cursor: pointer;
+}
+#score,#wrong {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-top: 20px;
+}
+.positive-score {
+    color: green;
+}
+.negative-score {
+    color: red;
+}
+.clicked-button {
+    background-color: green;
+}
+#choices-board {
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 300px;
+    background-color: gray;
+}
+#choices-board>p {
+    text-align: center;
+    color:white;
+}
+.correct-answer-choice-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 100%;
+    height: 50px;
+}
+.false-answer-choice-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+}
+.time-over-choice-board {
+    color: red;
+}
+#attempts-scoreboard {
+    position: absolute;
+    top: 0%;
+} 
+.background-green {
+    background-color: green;
+}
